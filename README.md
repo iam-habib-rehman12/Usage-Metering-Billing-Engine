@@ -41,8 +41,8 @@ Layers are separated: HTTP (`main.py`), rules (`metering.py`, `pricing.py`, `str
 ## One-command setup
 
 ```bash
-git clone https://github.com/iam-habib-rehman12/flyrank-capstone-metering-billing.git
-cd flyrank-capstone-metering-billing
+git clone https://github.com/iam-habib-rehman12/Usage-Metering-Billing-Engine.git
+cd Usage-Metering-Billing-Engine
 cp .env.example .env
 docker compose up --build
 ```
@@ -143,3 +143,4 @@ Copy the shown `whsec_...` into `STRIPE_WEBHOOK_SECRET`, restart the API, and us
 - Stripe Checkout is test mode only; no live money is accepted.
 
 MIT licensed. See [EVIDENCE.md](EVIDENCE.md) for the reviewer checklist.
+
