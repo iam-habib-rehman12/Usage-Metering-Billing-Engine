@@ -1,4 +1,4 @@
-name: flyrank-capstone-metering-billing
+name: Usage-Metering-Billing-Engine
 run: docker compose up --build
 seed: docker compose exec api python -m scripts.seed
 test: docker compose run --rm api pytest -q
@@ -10,3 +10,4 @@ endpoints:
   checkout: POST /checkout
   stripe_webhook: POST /webhooks/stripe
   reconciliation: POST /jobs/reconcile
+
